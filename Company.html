@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>东莞大鑫辅料有限公司</title>
+    <!-- 进行各个浏览器样式的统一 -->
+    <link rel="stylesheet" href="./Css/initialization.css">
+    <link rel="stylesheet" href="./Css/normalize.css">
+    <link rel="stylesheet" href="./Css/swiper.min.css">
+    <style>
+        body {
+        }
+
+        #Header {
+            width: 1366px;
+            margin: 0 auto;
+            display: flex;
+            height: 85px;
+        }
+
+        #Header .Left {
+            flex: 1;
+        }
+
+        #Header .Left img {
+            width: auto;
+            height: 60px;
+            padding-top: 15px;
+        }
+
+        #Header .Right {
+            flex: 1;
+            line-height: 85px;
+        }
+
+        #Header .Right ul {
+            float: right;
+            /* margin-right: 50px; */
+            font-size: 62px;
+        }
+
+        #Header .Right ul li {
+            width: 100px;
+            font-size: 16px;
+            color: #747474;
+            text-align: center;
+            float: left;
+        }
+
+        #Header .Right ul li:hover {
+            background-color: #e8e8e8;
+        }
+
+        #Body {
+            width: 1366px;
+            margin: 0 auto;
+            border-top: 1px solid #e8e8e8;
+            padding-top: 30px;
+
+        }
+
+        #Body .Profile {
+            display: flex;
+        }
+
+        #Body .Profile .Left {
+            flex: 1;
+            width: 100%;
+            height: 438px;
+        }
+
+        #Body .Profile .Left img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #Body .Profile .Right {
+            flex: 1;
+            margin-left: 45px;
+        }
+
+        #Body .Profile .Right div {}
+
+        #Body .Profile .Right div h3 {
+            font-size: 26px;
+        }
+
+        #Body .Profile .Right div p {
+            font-size: 16px;
+            line-height: 35px;
+            padding-top: 16px;
+        }
+
+        #Body .Profile .Introduce {}
+
+        #Body .Profile .Introduce h3 {}
+
+        #Body .Profile .Culture {
+            padding-top: 25px;
+        }
+
+        #Body .Organization {
+            text-align: center;
+            border-top: 1px solid #e8e8e8;
+            margin-top: 50px;
+        }
+
+        #Body .Organization h3 {
+            text-align: left;
+            padding: 56px;
+            font-size: 26px;
+        }
+
+        #Body .Organization img {
+            width: 960px;
+            height: auto;
+        }
+
+        #Body .Office {
+            text-align: center;
+            border-top: 1px solid #e8e8e8;
+            margin-top: 50px;
+        }
+
+        #Body .Office .Content {}
+
+
+        #Body .Office h3 {
+            text-align: left;
+            padding: 56px;
+            font-size: 26px;
+        }
+
+        #Body .Office li img {
+            width: 145px;
+            height: 145px;
+        }
+
+        #Body .Office .swiper-container {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        #Body .Office .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+
+        }
+
+        #Body .Cooperative {
+            text-align: center;
+            border-top: 1px solid #e8e8e8;
+            margin-top: 50px;
+        }
+
+        #Body .Cooperative h3 {
+            text-align: left;
+            padding: 56px;
+            font-size: 26px;
+        }
+
+        #Body .Cooperative img {
+            width: 100%;
+            height: auto;
+        }
+
+        #Footer {
+            background-color: #000000;
+            clear: both;
+            color: #ccc;
+            display: flex;
+            padding: 20px 40px;
+            line-height: 2rem;
+        }
+
+        #Footer .Left {
+            flex: 1;
+            line-height: 2rem;
+        }
+
+        #Footer .Center {
+            flex: 1;
+        }
+
+        #Footer .Right {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Header">
+        <div class="Left">
+            <img src="./Images/daxin-logo.png" alt="公司Logo" />
+        </div>
+        <div class="Right">
+            <ul>
+                <li onclick="jsvascript:window.location.href='./Home.html'">首页</li>
+                <li onclick="jsvascript:window.location.href='./Products.html'">产品</li>
+                <li onclick="jsvascript:window.location.href='./Company.html'">公司简介</li>
+                <li>关于我们</li>
+            </ul>
+        </div>
+    </div>
+    <div id="Body">
+        <div class="Profile">
+            <div class="Left">
+                <img src="./Images/company.png" />
+            </div>
+            <div class="Right">
+                <div class="Introduce">
+                    <h3>公司介绍</h3>
+                    <p>东莞市大鑫服装辅料有限公司是一家专业制造各类服饰商标辅料丝印厚章的厂商。成立于2013年，工厂占地面积 2000 ㎡，拥有生产设备包括丝高周波热压机、镭射机,
+                        另配套有走台丝印生产线、立体塑胶微章生产线等十多条，专业生产我们的产品有以下种类：凸油3D效果的热转印商标（硅胶、油墨）,PVC/Silicon
+                        胶章,高周波丝印电压章,印刷吊牌,牛仔皮牌,彩印/丝印制品,印唛/印带,反光/金属标牌以及各类塑胶匙扣吊牌等。
+                    </p>
+                </div>
+                <div class="Culture">
+                    <h3>企业文化</h3>
+                    <p>多年来我们一直秉持诚信，优质，高效的经营理念，致力于为服装、箱包等行业提供精美的辅料，不断地从产品设计、
+                        生产、产品工艺品质控制等方面进行改进及创新，力争为客
+                        户创造最大的竞争优势，我司集起版、生产于一体，紧密配
+                        合客户的市场开发需求。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="Organization">
+            <h3>组织架构</h3>
+            <img src="./Images/Organization.png" />
+        </div>
+        <div class="Office">
+            <h3>公司环境</h3>
+            <div class="Content">
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(./Images/company01.png)">
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./Images/company.png)">
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./Images/goods01.jpg)">
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./Images/goods02.jpg)">
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./Images/goods03.jpg)">
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./Images/goods04.jpg)">
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./Images/goods05.jpg)">
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./Images/goods06.jpg)">
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./Images/goods07.jpg)">
+                        </div>
+                        <div class="swiper-slide" style="background-image:url(./Images/goods08.jpg)">
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+                </div>
+            </div>
+        </div>
+        <div class="Cooperative">
+            <h3>合作品牌</h3>
+            <img src="./Images/Cooperative.png" />
+        </div>
+    </div>
+    <div id="Footer">
+        <div class="Left">
+            <h3>Andy Yip:</h3>
+            <p>T:+86 769 8777 5148 </p>
+            <p>E:andyyip@thousand.fit</p>
+            <p>What’s app:13923840095</p>
+            <p>Skype:</p>
+            <p>Facebook:</p>
+
+        </div>
+        <div class="Center">
+
+            <h3>Anna Peng:</h3>
+            <p>T:+86 769 8777 5148 ex:604 </p>
+            <p>E:annapeng@thousand.fit</p>
+            <p>What’s app:15119670361</p>
+            <p>Skype:15119670361</p>
+            <p>Facebook:15119670361</p>
+
+        </div>
+        <div class="Right">
+
+            <h3>社交平台</h3>
+            <p>微信</p>
+            <p>陌陌</p>
+            <p>抖音</p>
+        </div>
+    </div>
+</body>
+
+<!-- Swiper JS -->
+<script src="./Script/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+        autoplay: {
+            delay: 1000,
+            disableOnInteraction: false
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+</script>
+
+</html>

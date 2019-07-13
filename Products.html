@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>东莞大鑫辅料有限公司</title>
+    <!-- 进行各个浏览器样式的统一 -->
+    <link rel="stylesheet" href="./Css/initialization.css">
+    <link rel="stylesheet" href="./Css/normalize.css">
+    <style>
+        body {}
+
+        #Header {
+            width: 1366px;
+            margin: 0 auto;
+            display: flex;
+            height: 85px;
+        }
+
+        #Header .Left {
+            flex: 1;
+        }
+
+        #Header .Left img {
+            width: auto;
+            height: 60px;
+            padding-top: 15px;
+        }
+
+        #Header .Right {
+            flex: 1;
+            line-height: 85px;
+        }
+
+        #Header .Right ul {
+            float: right;
+            /* margin-right: 50px; */
+            font-size: 62px;
+        }
+
+        #Header .Right ul li {
+            width: 100px;
+            font-size: 16px;
+            color: #747474;
+            text-align: center;
+            float: left;
+        }
+
+        #Header .Right ul li:hover {
+            background-color: #e8e8e8;
+        }
+
+        #Body {
+            width: 1366px;
+            margin: 0 auto;
+        }
+
+        #Body .SwiperImage {
+            width: 100%;
+            height: 425px;
+            background-color: black;
+            margin-top: 20px;
+        }
+
+        #Body .SwiperImage img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #Body .Nav {
+            margin-top: 35px;
+            border-bottom: 2px solid #e8e8e8;
+            height: 75px;
+            text-align: center;
+        }
+
+        #Body .Nav ul {
+            display: flex;
+        }
+
+        #Body .Nav ul li {
+            flex: 1;
+            font-size: 16px;
+            line-height: 26px;
+            padding-top: 6px;
+        }
+
+        #Body .Nav ul li:hover {
+            background-color: #e8e8e8;
+        }
+
+        #Body .Nav ul li p {
+            font-size: 12px;
+        }
+
+        #Body .Nav .ClickNav {}
+
+        #Body .Nav .ClickNav img {
+            width: 30px;
+            height: 30px;
+        }
+
+        #Body .Nav .ClickNav p {
+            color: #808080;
+            font-weight: 100;
+            font-size: 12px;
+            line-height: 2;
+        }
+
+        #Body .Goods {
+            padding-top: 30px;
+        }
+
+        #Body .Goods ul {
+            float: left;
+            width: 100%;
+        }
+
+        #Body .Goods ul li {
+            width: 25%;
+            float: left;
+            margin: 0 auto;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        #Body .Goods ul li .GoodsDesc {
+            width: 300px;
+            margin: auto;
+            margin-top: 19px;
+            text-align: left;
+            height: 60px;
+        }
+
+        #Body .Goods ul li img {
+            width: 300px;
+            height: 300px;
+        }
+
+        #Footer {
+            background-color: #000000;
+            clear: both;
+            color: #ccc;
+            display: flex;
+            padding: 20px 40px;
+            line-height: 2rem;
+        }
+
+        #Footer .Left {
+            flex: 1;
+            line-height: 2rem;
+        }
+
+        #Footer .Center {
+            flex: 1;
+        }
+
+        #Footer .Right {
+            flex: 1;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div id="Header">
+        <div class="Left">
+            <img src="./Images/daxin-logo.png" alt="公司Logo" />
+        </div>
+        <div class="Right">
+            <ul>
+                <li onclick="jsvascript:window.location.href='./Home.html'">首页</li>
+                <li onclick="jsvascript:window.location.href='./Products.html'">产品</li>
+                <li onclick="jsvascript:window.location.href='./Company.html'">公司简介</li>
+                <li>关于我们</li>
+            </ul>
+        </div>
+    </div>
+    <div id="Body">
+        <!-- <div class="SwiperImage">
+            <img src="./Images/goods01.jpg" />
+        </div>
+        <h2>产品介绍</h2> -->
+        <div class="Nav">
+            <ul>
+                <li>
+                    硅胶（油墨）印唛
+                    <p>silicone（INK）label</p>
+                </li>
+                <li>
+                    织唛
+                    <p>woven label</p>
+                </li>
+                <li>
+                    硅胶拉链
+                    <p>silicone zipper</p>
+                </li>
+                <li>
+                    热转印
+                    <p>heat transfer label</p>
+                </li>
+                <li>
+                    皮章
+                    <p>leather label</p>
+                </li>
+                <li>
+                    织带
+                    <p>woven type</p>
+                </li>
+                <li>
+                    吊牌
+                    <p>Tag label</p>
+                </li>
+                <li>
+                    织带
+                    <p>Ribbon</p>
+                </li>
+                <li class="ClickNav">
+                    <p><img src="./Images/daohang.png"></p>
+                    <p>点击导航来选择产品类型</p>
+                </li>
+            </ul>
+        </div>
+        <div class="Goods">
+            <ul>
+                <li>
+                    <p><img src="./Images/goods01.jpg" alt="#"></p>
+                    <p class="GoodsDesc">产品01</p>
+                </li>
+                <li>
+                    <p><img src="./Images/goods02.jpg" alt="#"></p>
+                    <p class="GoodsDesc">产品02</p>
+                </li>
+                <li>
+                    <p><img src="./Images/goods03.jpg" alt="#"></p>
+                    <p class="GoodsDesc">产品03</p>
+                </li>
+                <li>
+                    <p><img src="./Images/goods04.jpg" alt="#"></p>
+                    <p class="GoodsDesc">产品04</p>
+                </li>
+                <li>
+                    <p><img src="./Images/goods05.jpg" alt="#"></p>
+                    <p class="GoodsDesc">产品05</p>
+                </li>
+                <li>
+                    <p><img src="./Images/goods06.jpg" alt="#"></p>
+                    <p class="GoodsDesc">产品06 </p>
+                </li>
+                <li>
+                    <p><img src="./Images/goods07.jpg" alt="#"></p>
+                    <p class="GoodsDesc">产品07 </p>
+                </li>
+                <li>
+                    <p><img src="./Images/goods08.jpg" alt="#"></p>
+                    <p class="GoodsDesc">产品08 </p>
+                </li>
+                <li>
+                    <p><img src="./Images/goods09.jpg" alt="#"></p>
+                    <p class="GoodsDesc">产品09 </p>
+                </li>
+                <li>
+                    <p><img src="./Images/goods10.jpg" alt="#"></p>
+                    <p class="GoodsDesc">产品10 </p>
+                </li>
+                <li>
+                    <p><img src="./Images/goods11.jpg" alt="#"></p>
+                    <p class="GoodsDesc">产品11 </p>
+                </li>
+                <li>
+                    <p><img src="./Images/goods12.jpg" alt="#"></p>
+                    <p class="GoodsDesc">产品12 </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="Footer">
+        <div class="Left">
+            <h3>Andy Yip:</h3>
+            <p>T:+86 769 8777 5148 </p>
+            <p>E:andyyip@thousand.fit</p>
+            <p>What’s app:13923840095</p>
+            <p>Skype:</p>
+            <p>Facebook:</p>
+
+        </div>
+        <div class="Center">
+
+            <h3>Anna Peng:</h3>
+            <p>T:+86 769 8777 5148 ex:604 </p>
+            <p>E:annapeng@thousand.fit</p>
+            <p>What’s app:15119670361</p>
+            <p>Skype:15119670361</p>
+            <p>Facebook:15119670361</p>
+
+        </div>
+        <div class="Right">
+
+            <h3>社交平台</h3>
+            <p>微信</p>
+            <p>陌陌</p>
+            <p>抖音</p>
+        </div>
+    </div>
+<style>
+    .fusion-footer{
+        box-sizing: border-box;color: #333333;    font-size: 16px;    line-height: 1.5;    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-style: normal;
+    }
+    .fusion-footer-widget-area{
+        color: #ffffff; 
+    }
+    .fusion-footer-widget-area {
+    background-color: #363839;
+    border-color: #e9eaee;
+    border-top-width: 12px;
+    padding-top: 43px;
+    padding-bottom: 40px;
+}
+.fusion-footer-widget-area .fusion-row{    max-width: 1200px;}
+.fusion-footer-copyright-area > .fusion-row, .fusion-footer-widget-area > .fusion-row {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.fusion-row {
+    margin: 0 auto;
+    zoom: 1;
+}
+.fusion-row:after, .fusion-row:before {
+    content: " ";
+    display: table;
+}
+.fusion-footer footer .fusion-columns {
+    margin: 0 -15px;
+}
+.fusion-footer footer .fusion-columns .fusion-column {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.fusion-columns-3 .fusion-column:nth-of-type(3n+1), .fusion-columns-3 .fusion-flip-box-wrapper:nth-of-type(3n+1) {
+    clear: both;
+}
+.fusion-footer footer .fusion-columns .fusion-column {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+</style>
+    <div class="fusion-footer">
+        <footer class="fusion-footer-widget-area fusion-widget-area">
+            <div class="fusion-row">
+                <div class="fusion-columns fusion-columns-3 fusion-widget-area">
+                    <div class="fusion-column col-lg-4 col-md-4 col-sm-4" style="width: 600px;">
+                        <section id="text-2" class="fusion-footer-widget-column widget widget_text"
+                            style="width: 100%;">
+                            <h3 class="widget-title" style="font-size: 20px; font-weight: bold;">联系我们</h3>
+                            <div class="textwidget">
+                                <div class="address" style="margin-left: 30px;">地址：东莞市凤岗镇浸校塘振塘路23号航诚科技园5楼</div>
+                                <div class="phone" style="margin-left: 30px;">电话：+86 769 8777 5148</div>
+                                <div class="email" style="margin-left: 30px;">邮箱：andyyip@thousand.fit</div>
+                            </div>
+                            <div style="clear: both;"></div>
+                        </section>
+                    </div>
+                    <div class="fusion-column col-lg-4 col-md-4 col-sm-4" style="width: 600px;">
+                        <section id="text-2" class="fusion-footer-widget-column widget widget_text"
+                            style="width: 100%;">
+                            <h3 class="widget-title" style="font-size: 20px; font-weight: bold;">友情链接</h3>
+                            <ul style="margin-left: 30px;">
+                                <li style="list-style: none; float: left;"><a href="https://www.baidu.com/"><span
+                                            class="link-text" style="font-size: 18px;">百度</span></a></li>
+                                <li style="list-style: none; float: left; margin-left: 20px;"><a
+                                        href="https://www.baidu.com"><span class="link-text"
+                                            style="font-size: 18px;">腾讯</span></a></li>
+                                <li style="list-style: none; float: left; margin-left: 20px;"><a
+                                        href="https://www.sina.com"><span class="link-text"
+                                            style="font-size: 18px;">新浪</span></a></li>
+                                <li style="list-style: none; float: left; margin-left: 20px;"><a
+                                        href="https://www.sohu.com"><span class="link-text"
+                                            style="font-size: 18px;">搜狐</span></a></li>
+                                <li style="list-style: none; float: left; margin-left: 20px;"><a
+                                        href="https://www.taobao.com"><span class="link-text"
+                                            style="font-size: 18px;">淘宝</span></a></li>
+                            </ul>
+                            <div style="clear: both;"></div>
+                        </section>
+                    </div>
+                    <div class="fusion-clearfix"></div>
+                </div>
+            </div>
+        </footer>
+        <footer id="footer" class="fusion-footer-copyright-area">
+            <div class="fusion-row">
+                <div class="fusion-copyright-content">
+                    <div class="fusion-copyright-notice" style="padding-bottom: 0px;">
+                        <div>
+                            Copyright 2019 东莞市大鑫服装辅料有限公司 | All Rights Reserved </div>
+                    </div>
+                    <div class="fusion-social-links-footer" style="display: none;"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
